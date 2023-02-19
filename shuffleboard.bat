@@ -12,6 +12,5 @@ goto waitloop
 :endloop
 
 call git add .
-set "_hostname=hostname"
-ECHO "%_hostname%"
-pause
+call git commit -m "Automatic commit made by batch file"
+call git push
