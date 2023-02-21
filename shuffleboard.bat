@@ -11,6 +11,6 @@ timeout /t 5 /nobreak>NUL
 goto waitloop
 :endloop
 
-call git add .
-call git commit -m "Automatic commit made by batch file"
+call git add shuffleboard_layout.json
+call git commit -m "Automatic commit update shuffleboard layout"
 call git push
