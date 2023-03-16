@@ -1,6 +1,7 @@
 call git fetch
 call git pull
 start "" /W "C:\Users\Public\wpilib\2023\tools\Shuffleboard.vbs"
+start .\ChargedUpNTClient-shadow\bin\ChargedUpNTClient.bat
 
 @ECHO off
 timeout /t 5 /nobreak>NUL
